@@ -2,8 +2,7 @@
 # PROYECTO DATALAB - ENTREGA 1: EXPLORADOR DE SPOTIFY
 # Programación de Computadores - Universidad Nacional de Colombia
 # ==============================================================================
-
-def split_linea_csv(linea):
+def split_linea_csv(linea) def split_linea_csv(linea)
     """
     Función auxiliar: separa los campos de una línea de CSV respetando
     las comillas dobles (ej: "J Balvin, Pharrell Williams") sin librerías externas.
@@ -22,7 +21,7 @@ def split_linea_csv(linea):
             campo_actual.append(caracter)
             
     campos.append("".join(campo_actual).strip())
-    return campos
+    return campos 
 
 
 # ------------------------------------------------------------------------------
